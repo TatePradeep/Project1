@@ -1,0 +1,90 @@
+.Footer__container
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 500px;
+}
+.Footer__container-part1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.Footer__container-MNTN
+{
+    display: flex;
+    flex-direction: row;
+    color: var(--Wei, #FFF);
+font-family: "Chronicle Display";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.32px;
+text-transform: capitalize;
+}
+.Footer__container-content
+{
+    width: 303px;
+    color: #FFF;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 177.778% */
+}
+.Footer__container-content1{
+    color: #FFF;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+margin-top: 50px;
+opacity: 0.5;
+}
+.Footer__container-links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 100px;
+}
+.Footer__container-links1{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-left: 110px;
+}
+.Footer__container-links h1{
+    color: var(--Accent, #FBD784);
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+}
+.Footer__container-links a{
+    color: #FFF;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+}
+
+.Footer__container-links1 h1{
+    color: var(--Accent, #FBD784);
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+}
+.Footer__container-links1 a{
+    color: #FFF;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+}

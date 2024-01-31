@@ -1,0 +1,104 @@
+
+.Navbar__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    float: left;
+    justify-content: space-between;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    color: #fff; 
+    }
+    
+    .Navbar__title{
+        color: var(--Wei, #FFF);
+font-family: "Chronicle Display";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.32px;
+text-transform: capitalize;
+margin-left: 80px;
+
+    }
+
+    .Navbar__title h1{
+      animation: zoomIn 1.5s ease-out;
+    } 
+    @keyframes zoomIn {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+  
+  .Navbar__title-links{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    cursor: pointer;
+    }
+    .Navbar__title-links a{
+        color: #FFF;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none;
+margin-left: 40px;
+cursor: pointer;
+    }
+    
+  .Navbar__title-account{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: 50px;
+    margin-right: 80px;
+  }
+  .Navbar__title-account img{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+margin-top: 13px;
+  }
+  .Navbar__title-account p{
+    color: #FFF;
+font-family: Gilroy;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .Navbar__title-follow{
+    display: flex;
+    flex-direction: row;
+    transform: rotate(90deg);
+    margin-top: 300px;
+    margin-left: -150px;
+  }
+  .Navbar__title-follow h1
+  {
+    color: #FFF;
+    
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .Navbar__title-follow img{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+margin-top: 50px;
+padding-left: 40px;
+  }
+  
